@@ -1,0 +1,26 @@
+# This is a basic enviroment that builds the following pacakges. It is on the company intranet and we cannot share it.
+# You can use alternative pacakges for the installing task or not.
+# g-tlinux2.2-python3.6-cuda10.1-cudnn7.6-pytorch1.4-torchvision0.5-openmpi4.0.3-nccl2.5.6-ofed4.6-horovod
+
+# Pacakges that are used for this project
+RUN pip3 install cmake && \
+    pip3 install numpy && \
+    pip3 install docker && \
+    pip3 install dlib && \
+    pip3 install einops && \
+    pip3 install sklearn && \
+    pip3 install dataset && \
+    pip3 install scipy && \
+    pip3 install ninja && \
+    pip3 install -U scikit-learn && \
+    pip3 install tensorboard && \
+    pip3 install scikit-image && \
+    pip3 install albumentations && \
+    pip3 install mtcnn && \
+    pip3 install tensorflow-gpu==2.2.0 && \
+    pip3 install keras==2.4.3 && \
+    pip3 install tqdm && \
+    pip3 install argparse && \
+    pip3 install scikit-learn && \
+    pip3 install opencv-python==4.5.1.48
+
